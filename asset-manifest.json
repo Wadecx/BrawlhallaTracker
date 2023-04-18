@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/BrawlhallaTracker/static/css/main.4a3e1b0b.css",
-    "main.js": "/BrawlhallaTracker/static/js/main.00bc9348.js",
+    "main.css": "/BrawlhallaTracker/static/css/main.2a0c0fdb.css",
+    "main.js": "/BrawlhallaTracker/static/js/main.19317fe1.js",
     "static/js/787.d6362646.chunk.js": "/BrawlhallaTracker/static/js/787.d6362646.chunk.js",
+    "static/media/Loading.gif": "/BrawlhallaTracker/static/media/Loading.20768b1e1a93e4ec17e4.gif",
     "static/media/logo.svg": "/BrawlhallaTracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/BrawlhallaTracker/index.html",
-    "main.4a3e1b0b.css.map": "/BrawlhallaTracker/static/css/main.4a3e1b0b.css.map",
-    "main.00bc9348.js.map": "/BrawlhallaTracker/static/js/main.00bc9348.js.map",
+    "main.2a0c0fdb.css.map": "/BrawlhallaTracker/static/css/main.2a0c0fdb.css.map",
+    "main.19317fe1.js.map": "/BrawlhallaTracker/static/js/main.19317fe1.js.map",
     "787.d6362646.chunk.js.map": "/BrawlhallaTracker/static/js/787.d6362646.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a3e1b0b.css",
-    "static/js/main.00bc9348.js"
+    "static/css/main.2a0c0fdb.css",
+    "static/js/main.19317fe1.js"
   ]
 }
