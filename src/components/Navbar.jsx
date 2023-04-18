@@ -18,7 +18,6 @@ const Navbar = (props) => {
         <div className="navbar">
             <div className="leftNav">
                 <img src="https://upload.wikimedia.org/wikipedia/fr/6/60/Brawlhalla_logo.png" alt="Brawlhalla logo" />
-                <a>ABOUT ME</a>
             </div>
             <div className="rightNav">
               <form onSubmit={handleSend}>
