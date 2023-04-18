@@ -1,0 +1,41 @@
+.parentTab{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.parentTab .generalTab{
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #262626;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+}
+
+
+.title{
+    margin-bottom: 5%;
+}
+
+
+.parentTab .rankedTab{
+    padding: 10px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #262626;
+    border-radius: 10px;
+    width: 80%;
+}

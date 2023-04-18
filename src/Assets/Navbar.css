@@ -1,0 +1,56 @@
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    background-color: #252525;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    align-items: center;
+}
+
+.navbar .leftNav{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbar .leftNav img{
+width: 200px;
+padding: 10px;
+}
+
+.navbar .leftNav a{
+    padding: 20px;
+    background-color: #303030;
+}
+.navbar .leftNav a:hover{
+    padding: 20px;
+    background-color: #252525;
+}
+
+
+.navbar .rightNav form{
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+
+.navbar .rightNav input[type="number"]{
+    padding: 20px;
+    background-color: #353535;
+    color:  white;
+    border: 1px White;
+}
+.navbar .rightNav input:focus[type="number"]{
+    background-color: #353535;
+}
+
+.navbar .rightNav input[type="submit"]{
+    background-color: #303030;
+    border: none;
+    padding: 20px;
+    margin-right: 10px;
+    color: white;
+}
