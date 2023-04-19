@@ -2,9 +2,8 @@ header .navbar{
     display: flex;
     justify-content: space-between;
     padding-top: 1%;
-    background-color: #252525;
+    background-color: #1a1a1a;
     padding-bottom: 1%;
-    margin-bottom: 1%;
     align-items: center;
 }
 
@@ -32,7 +31,6 @@ padding: 10px;
 
 
 .navbar .rightNav form{
-    background-color: #252525;
     display: flex;
     color: white;
     gap: 10px;
@@ -55,16 +53,3 @@ padding: 10px;
     margin-right: 10px;
     color: white;
 }
-
-@media screen and (max-width: 430px) {
-    header .navbar{
-        display: flex;
-        width: 10%;
-        margin: auto;
-        background-color: #252525;
-    }
-
-    .navbar .rightNav input[type="number"]{
-        padding: 200px;
-    }
-  }

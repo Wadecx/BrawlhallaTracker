@@ -1,48 +1,55 @@
 .parentTab{
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 
 
 .parentTab .generalTab{
     display: flex;
-    position: relative;
-    margin: auto;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
     color: white;
     background-color: #262626;
-    border-radius: 10px;
-    width: 50%;
-    padding: 10px;
+    padding: 20px;
+    width: 100%;
+    gap: 5px;
+    border-bottom: #ffffff20 1px solid;
+
+}
+
+.Loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Loading img{
+    position: relative;
+    left: 50px;
+    width: 30%;
+}
+
+.generalTab h2{
+    display: flex;
+    flex-direction: row;
 }
 
 
 .title{
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 
 
 .parentTab .rankedTab{
-    padding: 10px;
     display: flex;
-    position: relative;
-    margin: auto;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
     color: white;
     background-color: #262626;
-    width: 50%;
-    border-radius: 10px;
+    padding: 20px;
+    gap: 5px;
+    width: 100%;
 }
-
-@media screen and (max-width: 430px) {
-    .parentTab{
-        display: flex;
-        width: 100%;
-    }
-  }

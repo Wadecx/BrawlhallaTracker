@@ -3,14 +3,16 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Searcher from './components/Searcher';
 import { useState } from 'react';
+import Footer from './components/Footer';
 
 function App() {
-  const [Username, setUsername] = useState('5138590');
+  const [Username, setUsername] = useState('');
 
   return (
     <>
       <Navbar setUsername={setUsername}/>
-      <Searcher Username={Username}/>
+      <Searcher Username={Username} setUsername={setUsername}/>
+      <Footer/>
     </>
   );
 }
