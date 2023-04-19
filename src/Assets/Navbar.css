@@ -53,3 +53,29 @@ padding: 10px;
     margin-right: 10px;
     color: white;
 }
+
+@media (min-width: 300px) and (max-width: 700px) {
+    header .navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: #1a1a1a;
+        align-items: center;
+    }
+
+    .navbar .leftNav img{
+        width: 70px;
+        padding: 10px;
+     }
+
+    .navbar .rightNav input[type="number"]{
+            padding: 10px;
+            background-color: #353535;
+            color:  white;
+    }
+    .navbar .rightNav input[type="submit"]{
+        background-color: #303030;
+        border: none;
+        padding: 20px;
+        color: white;
+    }
+  }

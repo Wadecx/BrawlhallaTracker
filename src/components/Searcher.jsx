@@ -51,7 +51,7 @@ const Searcher = (props) => {
               <h2>Clan : {user.clan.clan_name}</h2>
               <h2>Games Played : {user.games}</h2>
               <h2>Wins : {user.wins}</h2>
-              <h2>Wins % : {user.wins}</h2>
+              <h2>Wins Pourcentage : {res} %</h2>
             </>
           ) : (
             <div className="Loading">

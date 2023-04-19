@@ -1,55 +1,66 @@
-.parentTab{
-    display: flex;
-    flex-direction: column;
+.parentTab {
+  display: flex;
+  flex-direction: column;
 }
 
-
-
-.parentTab .generalTab{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    background-color: #262626;
-    padding: 20px;
-    width: 100%;
-    gap: 5px;
-    border-bottom: #ffffff20 1px solid;
-
+.parentTab .generalTab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: #262626;
+  padding: 20px;
+  width: 100%;
+  gap: 5px;
+  border-bottom: #ffffff20 1px solid;
 }
 
-.Loading{
+.Loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Loading img {
+  position: relative;
+  left: 50px;
+  width: 30%;
+}
+
+.generalTab h2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  margin-bottom: 1%;
+}
+
+.parentTab .rankedTab {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: #262626;
+  padding: 20px;
+  gap: 5px;
+  width: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  .Loading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-}
-
-.Loading img{
-    position: relative;
-    left: 50px;
-    width: 30%;
-}
-
-.generalTab h2{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.title{
-    margin-bottom: 1%;
-}
-
-
-.parentTab .rankedTab{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    background-color: #262626;
-    padding: 20px;
-    gap: 5px;
     width: 100%;
+  }
+
+  .Loading img {
+    position: relative;
+  left: 50px;
+  width: 90%;
+  }
+
 }

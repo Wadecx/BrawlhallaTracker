@@ -12,9 +12,9 @@ const Footer = () => {
         </div>
         
         <ul>
-          <a href="">Github</a>
-          <a href="">Instagram</a>
-          <a href="">Mail</a>
+          <a href="https://github.com/Wadecx" target='_blank'>Github</a>
+          <a href="https://www.instagram.com/tyrxxn.mrl/" target='blank'>Instagram</a>
+          <a href="mailto:wadecpro@gmail.com" target='blank'>Mail</a>
         </ul>
       </div>
     </footer>
